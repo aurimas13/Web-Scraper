@@ -19,7 +19,7 @@ Python 3.9.7 is tested on the wrangling scripts and hence is recommended.
 # Code
 [(Back to top)](#table-of-contents)
 
-<br>Step by step explanations of a script for *scrap_jobs.py*.</br>
+<br>Step by step explanations of a script for *scrape_jobs.py*.</br>
 
 1) URL where to search:
 ```python

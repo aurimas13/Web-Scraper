@@ -1,22 +1,15 @@
 import requests
 from bs4 import BeautifulSoup
 
-# URL where to search
 URL = "https://realpython.github.io/fake-jobs/"
 page = requests.get(URL)
-
-# Implementing BeautifySoup
 soup = BeautifulSoup(page.content, "html.parser")
-
-# Taking the results found in 'div' section as id
 results = soup.find(id="ResultsContainer")
+job_elements = results.find_all("div", class_="card-content")
 
 # Printing to check how it looks without cleaning:
 # print(page.text)
 # print(results.prettify())
-
-# Finding job description names from 'div' in 'card-content' class
-job_elements = results.find_all("div", class_="card-content")
 
 # Defining a loop to look over all job names
 # for job_element in job_elements:
@@ -36,12 +29,11 @@ job_elements = results.find_all("div", class_="card-content")
 python_jobs = results.find_all(
     "h2", string=lambda text: "python" in text.lower()
 )
-
 python_job_elements = [
     h2_element.parent.parent.parent for h2_element in python_jobs
 ]
 
-# Print the total number of python jobs
+# Printing the total number of python jobs
 print(f"\nThere are a total of {len(python_jobs)} python related positions. You could apply to them through hare:\n")
 
 # Taking the links where to apply for Python related job positions

@@ -61,7 +61,7 @@ for job_element in python_job_elements:
 # Result
 [(Back to top)](#table-of-contents)
 
-After the python is installed and working, the following can be run through terminal to scrape/crawle links related to Python jobs through ["Fake Python"](https://realpython.github.io/fake-jobs/) *website*:
+After the python is installed and working, the following can be run through terminal to scrape/crawle links related to Python jobs through [Fake Python](https://realpython.github.io/fake-jobs/) *website*:
 
 ```python
 >>> python scrape_jobs.py

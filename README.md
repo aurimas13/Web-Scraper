@@ -21,25 +21,25 @@ Python 3.9.7 is tested on the wrangling scripts and hence is recommended.
 
 <br>Step by step explanations of a script for *scrap_jobs.py*.</br>
 
-URL where to search:
+1) URL where to search:
 ```python
 URL = "https://realpython.github.io/fake-jobs/"
 page = requests.get(URL)
 ```
-Implementing BeautifySoup:
+2) Implementing BeautifySoup:
 ```python
 soup = BeautifulSoup(page.content, "html.parser")
 ```
-Taking the results found in 'div' section as id:
+3) Taking the results found in 'div' section as id:
 ```python
 results = soup.find(id="ResultsContainer")
 ```
-Finding job description names from 'div' in 'card-content' class:
+4) Finding job description names from 'div' in 'card-content' class:
 ```python
 
 job_elements = results.find_all("div", class_="card-content")
 ```
-Defining a search for a specific position:
+5) Defining a search for a specific position:
 ```python
 python_jobs = results.find_all(
     "h2", string=lambda text: "python" in text.lower()
@@ -48,11 +48,11 @@ python_job_elements = [
     h2_element.parent.parent.parent for h2_element in python_jobs
 ]
 ```
-Print the total number of python jobs:
+6) Printing the total number of python jobs:
 ```python
 print(f"\nThere are a total of {len(python_jobs)} python related positions. You could apply to them through hare:\n")
 ```
-Taking the links where to apply for Python related job positions:
+7) Taking the links where to apply for Python related job positions:
 ```python
 for job_element in python_job_elements:
     link_url = job_element.find_all("a")[1]["href"]

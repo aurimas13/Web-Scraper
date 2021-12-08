@@ -1,6 +1,6 @@
 # Web-Scraper
 
-This repo contains two Web Scraper scripts for ([*Fake Python*](https://realpython.github.io/fake-jobs/) and [*Free Python Job Board*](https://pythonjobs.github.io/) websites. The already completed script wrangles through Fake Python jobs as found [*here*](https://github.com/aurimas13/Web-Scraper/blob/main/scrape_jobs.py) while I am still developing a script to wrangle the Free Python Job Board posts as found [*here*](https://github.com/aurimas13/Web-Scraper/blob/main/scrape_jobs_free_python.py).
+This repo contains two Web Scraper/Crawler scripts for ([*Fake Python*](https://realpython.github.io/fake-jobs/) and [*Free Python Job Board*](https://pythonjobs.github.io/) websites. The already completed script crawles through Fake Python jobs as found [*here*](https://github.com/aurimas13/Web-Scraper/blob/main/scrape_jobs.py) while I am still developing a script to crawle the Free Python Job Board posts as found [*here*](https://github.com/aurimas13/Web-Scraper/blob/main/scrape_jobs_free_python.py).
 
 # Table of contents
 
@@ -14,7 +14,7 @@ This repo contains two Web Scraper scripts for ([*Fake Python*](https://realpyth
 # Requirements
 [(Back to top)](#table-of-contents)
 
-Python 3.9.7 is tested on the wrangling scripts and hence is recommended.
+Python 3.9.7 is tested on the crawling scripts and hence is recommended.
 
 # Code
 [(Back to top)](#table-of-contents)
@@ -61,7 +61,7 @@ for job_element in python_job_elements:
 # Result
 [(Back to top)](#table-of-contents)
 
-After the python is installed and working, the following can be run through terminal to wrangle links related to Python jobs through ["Fake Python"](https://realpython.github.io/fake-jobs/) *website*:
+After the python is installed and working, the following can be run through terminal to scrape/crawle links related to Python jobs through ["Fake Python"](https://realpython.github.io/fake-jobs/) *website*:
 
 ```python
 >>> python scrape_jobs.py
@@ -84,7 +84,7 @@ Apply here: https://realpython.github.io/fake-jobs/jobs/software-developer-pytho
 # Development
 [(Back to top)](#table-of-contents)
 
-The script to wrangle [Free Python Job Board](https://pythonjobs.github.io/) website is under development.
+The script to crawle/scrape [Free Python Job Board](https://pythonjobs.github.io/) website is under development.
 
 # License
 [(Back to top)](#table-of-contents)

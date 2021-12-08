@@ -25,6 +25,7 @@ job_elements = results.find_all("div", class_="card-content")
 #     print(location_element.text.strip())
 #     print()
 
+
 # Defining a search for a specific position
 python_jobs = results.find_all(
     "h2", string=lambda text: "python" in text.lower()

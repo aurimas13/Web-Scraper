@@ -6,6 +6,7 @@ URL = "https://pythonjobs.github.io/"
 # URL = "https://realpython.github.io/fake-jobs/"
 page = requests.get(URL)
 html_doc = "python"
+
 # Implementing BeautifySoup
 soup = BeautifulSoup(page.content, "html.parser")
 bs = BeautifulSoup(html_doc, features="html.parser")
@@ -52,3 +53,9 @@ print(results)
 # for job_element in python_job_elements:
 #     link_url = job_element.find_all("a")[1]["href"]
 #     print(f"Apply here: {link_url}\n")
+
+
+
+
+
+

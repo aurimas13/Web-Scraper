@@ -22,7 +22,6 @@ def scrape_jobs(location=None):
     results = soup.find(id="ResultsContainer")
     return results
 
-
 def filter_jobs_by_keyword(results, word):
     """Filters job postings by word and prints matching job title plus link.
     :param results: Parsed HTML container with all job listings

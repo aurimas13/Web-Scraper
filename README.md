@@ -19,7 +19,7 @@ Python 3.9.7 is tested on the wrangling scripts and hence is recommended.
 # Code
 [(Back to top)](#table-of-contents)
 
-####Explanations of code step by step for *scrap_jobs.py*:
+###Explanations of code step by step for *scrap_jobs.py*:
 URL where to search:
 ```python
 URL = "https://realpython.github.io/fake-jobs/"

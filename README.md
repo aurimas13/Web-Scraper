@@ -8,7 +8,7 @@ This repo contains two Python Web Scraper scripts for [*Fake Python*](https://re
 - [Requirements](Requirements)
 - [Code](#Code)
 - [Result](#Result)
-- [Result 2](#Result_2)
+- [Result 2](#Result 2)
 - [License](#license)
 
 # Requirements
@@ -59,7 +59,7 @@ for job_element in python_job_elements:
     print(f"Apply here: {link_url}\n")
 ```
 
-The code that runs *scraper_jobs_free_python.py* is given below (Output [here](#Result_2)):
+The code that runs *scraper_jobs_free_python.py* is given below (Output [here](#Result-2)):
 
 ```python
 # Printing the available job positions

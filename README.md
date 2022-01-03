@@ -1,6 +1,6 @@
 # Web-Scraper
 
-This repo contains two Web Scraper/Crawler scripts for [*Fake Python*](https://realpython.github.io/fake-jobs/) and [*Free Python Job Board*](https://pythonjobs.github.io/) websites. The already completed script crawles through Fake Python jobs as found [*here*](https://github.com/aurimas13/Web-Scraper/blob/main/scrape_jobs.py) while I am still developing a script to crawle the Free Python Job Board posts as found [*here*](https://github.com/aurimas13/Web-Scraper/blob/main/scrape_jobs_free_python.py). The old python scraper script is [*this*](https://github.com/aurimas13/Web-Scraper/blob/main/scrape_jobs_old.py).
+This repo contains two Python Web Scraper scripts for [*Fake Python*](https://realpython.github.io/fake-jobs/) and [*Free Python Job Board*](https://pythonjobs.github.io/) websites. The already completed script crawles through Fake Python jobs as found [*here*](https://github.com/aurimas13/Web-Scraper/blob/main/scrape_jobs.py) and through Free Python Job Board posts as found [*here*](https://github.com/aurimas13/Web-Scraper/blob/main/scrape_jobs_free_python.py). The old python scraper script is [*this*](https://github.com/aurimas13/Web-Scraper/blob/main/scrape_jobs_old.py).
 
 # Table of contents
 
@@ -84,7 +84,16 @@ Apply here: https://realpython.github.io/fake-jobs/jobs/software-developer-pytho
 # Development
 [(Back to top)](#table-of-contents)
 
-The script to crawle/scrape [Free Python Job Board](https://pythonjobs.github.io/) website is under development.
+The script to scrape [Free Python Job Board](https://pythonjobs.github.io/) website gives the positions available:
+'''
+Open Source Software Engineer - Python
+Senior Python Developer
+Full Stack (Python & JS) Developer
+Python Backend Developer
+Computer Scientist / Software Developer for multi-messenger astronomy
+Full Stack Engineer
+Remote Contractor Senior Django REST Developer
+'''
 
 # License
 [(Back to top)](#table-of-contents)

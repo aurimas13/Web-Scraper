@@ -13,7 +13,8 @@ soup = BeautifulSoup(page.content, "html.parser")
 # Printing the available job positions
 for row in soup.find_all('h1', a=False, href=False, class_=False):
     if row.text != 'Most Recent Jobs':
-        print(row.text)
+        for url in row.find_all('a'):
+            print(row.text + ' | ' + url.get('href'))
 
 
 

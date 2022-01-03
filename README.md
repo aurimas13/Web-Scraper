@@ -61,7 +61,7 @@ for job_element in python_job_elements:
 # Result
 [(Back to top)](#table-of-contents)
 
-After the python is installed and working, the following can be run through terminal to scrape/crawle links related to Python jobs through [Fake Python](https://realpython.github.io/fake-jobs/) *website*:
+After the python is installed and working, the following can be run through terminal to scrape links related to Python jobs through [Fake Python](https://realpython.github.io/fake-jobs/) *website*:
 
 ```python
 >>> python scrape_jobs.py
@@ -81,19 +81,26 @@ Apply here: https://realpython.github.io/fake-jobs/jobs/back-end-web-developer-p
 Apply here: https://realpython.github.io/fake-jobs/jobs/python-programmer-entry-level-80.html
 Apply here: https://realpython.github.io/fake-jobs/jobs/software-developer-python-90.html
 ```
-# Development
+# Current
 [(Back to top)](#table-of-contents)
 
-The script to scrape [Free Python Job Board](https://pythonjobs.github.io/) website gives the positions available:
-'''
-Open Source Software Engineer - Python
-Senior Python Developer
-Full Stack (Python & JS) Developer
-Python Backend Developer
-Computer Scientist / Software Developer for multi-messenger astronomy
-Full Stack Engineer
-Remote Contractor Senior Django REST Developer
-'''
+The following can be run through terminal to scrape links rand positions related to [Free Python Job Board](https://pythonjobs.github.io/) website. 
+
+```python
+>>> python scrape_jobs_free_python.py
+```
+
+The output gives the positions and links whgere to apply for them:
+
+```
+Open Source Software Engineer - Python | /jobs/datadog-open-source-software-engineer-python.html
+Senior Python Developer | /jobs/realrate-gmbh-senior-python-developer.html
+Full Stack (Python & JS) Developer | /jobs/odwyer-software-full-stack-developer.html
+Python Backend Developer | /jobs/newzoo-python-backend-developer.html
+Computer Scientist / Software Developer for multi-messenger astronomy | /jobs/european-gravitational-observatory-computer-scientist-software-developer-for-multi-messenger-astronomy.html
+Full Stack Engineer | /jobs/Full_Stack_Python-Xref.html
+Remote Contractor Senior Django REST Developer | /jobs/aisoft-development-llc-remote-contractor-senior-django-rest-developer.html
+```
 
 # License
 [(Back to top)](#table-of-contents)

@@ -8,7 +8,7 @@ This repo contains two Python Web Scraper scripts for [*Fake Python*](https://re
 - [Requirements](Requirements)
 - [Code](#Code)
 - [Result](#Result)
-- [Development](#Development)
+- [New](#New)
 - [License](#license)
 
 # Requirements
@@ -58,6 +58,15 @@ for job_element in python_job_elements:
     link_url = job_element.find_all("a")[1]["href"]
     print(f"Apply here: {link_url}\n")
 ```
+
+8. The code that runs scraper_jobs_free_python.py is given below (Output [here](#New)):
+```python
+# Printing the available job positions
+for row in soup.find_all('h1', a=False, href=False, class_=False):
+    if row.text != 'Most Recent Jobs':
+        for url in row.find_all('a'):
+            print(row.text + ' | ' + url.get('href'))
+ ```
 # Result
 [(Back to top)](#table-of-contents)
 
@@ -81,10 +90,10 @@ Apply here: https://realpython.github.io/fake-jobs/jobs/back-end-web-developer-p
 Apply here: https://realpython.github.io/fake-jobs/jobs/python-programmer-entry-level-80.html
 Apply here: https://realpython.github.io/fake-jobs/jobs/software-developer-python-90.html
 ```
-# Current
+# New
 [(Back to top)](#table-of-contents)
 
-The following can be run through terminal to scrape links rand positions related to [Free Python Job Board](https://pythonjobs.github.io/) website. 
+The following can be run through terminal to scrape links and positions related to [Free Python Job Board](https://pythonjobs.github.io/) website: 
 
 ```python
 >>> python scrape_jobs_free_python.py

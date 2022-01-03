@@ -1,8 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 
-
-
 # URL where to search
 URL = "https://pythonjobs.github.io/"
 # URL = "https://realpython.github.io/fake-jobs/"

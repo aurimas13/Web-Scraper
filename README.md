@@ -59,7 +59,7 @@ for job_element in python_job_elements:
     print(f"Apply here: {link_url}\n")
 ```
 
-8. The code that runs scraper_jobs_free_python.py is given below (Output [here](#Result_2)):
+8. The code that runs *scraper_jobs_free_python.py* is given below (Output [here](#Result_2)):
 ```python
 # Printing the available job positions
 for row in soup.find_all('h1', a=False, href=False, class_=False):

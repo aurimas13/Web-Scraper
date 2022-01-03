@@ -8,7 +8,7 @@ This repo contains two Python Web Scraper scripts for [*Fake Python*](https://re
 - [Requirements](Requirements)
 - [Code](#Code)
 - [Result](#Result)
-- [Result 2](#Result 2)
+- [Result 2](#Result-2)
 - [License](#license)
 
 # Requirements

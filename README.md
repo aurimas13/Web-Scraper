@@ -1,3 +1,15 @@
+<p align=center>
+  <img height="200px" src="https://github.com/aurimas13/Web-Scraper/blob/main/images/web_scraper.jpg"/>
+</p>
+
+<p align="center" > <b> Calculator App </b> </p>
+<br>
+<p align=center>
+  <a href="https://github.com/aurimas13/Road-App/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/npm/l/express"></a>
+  <a href="https://twitter.com/anausedas"><img alt="twitter" src="https://img.shields.io/twitter/follow/anausedas?style=social"/></a>
+</p>
+
+
 # Web-Scraper
 
 This repo contains two Python Web Scraper scripts for [*Fake Python*](https://realpython.github.io/fake-jobs/) and [*Free Python Job Board*](https://pythonjobs.github.io/) websites. The already completed script crawls through Fake Python jobs as found [*here*](https://github.com/aurimas13/Web-Scraper/blob/main/scrape_jobs.py) and through Free Python Job Board posts as found [*here*](https://github.com/aurimas13/Web-Scraper/blob/main/scrape_jobs_free_python.py). The old python scraper script is [*this*](https://github.com/aurimas13/Web-Scraper/blob/main/scrape_jobs_old.py).

@@ -1,8 +1,8 @@
 <p align=center>
-  <img height="200px" src="https://github.com/aurimas13/Web-Scraper/blob/main/images/web_scraper.jpg"/>
+  <img height="200px" src="https://github.com/aurimas13/Web-Scraper/blob/main/public/images/web_scraper.jpg"/>
 </p>
 
-<p align="center" > <b> Calculator App </b> </p>
+<p align="center" > <b> Web Scraper </b> </p>
 <br>
 <p align=center>
   <a href="https://github.com/aurimas13/Road-App/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/npm/l/express"></a>
